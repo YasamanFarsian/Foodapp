@@ -1,0 +1,60 @@
+.container{
+    display: flex;
+    flex-flow: column;
+    max-width: 600px;
+    width: 100%;
+    height: 500px;
+    max-height: 400px;
+    margin: 0 auto;
+  }
+  
+  .empty{
+    text-align: center;
+  }
+  
+  .bottombread {
+    height: 13%;
+    width: 80%;
+    background: #ddd;
+   
+    margin: 2% auto;
+  }
+  
+  .topbread {
+    height: 30%;
+    width: 80%;
+    background: #ddd;
+   
+    margin: 2% auto;
+    position: relative;
+  }
+  
+  
+  
+  
+  
+  
+  
+  .meat {
+    width: 80%;
+    height: 8%;
+    background: #4c4747;
+    margin: 2% auto;
+    border-radius: 15px;
+  }
+  
+  .cheese {
+    width: 90%;
+    height: 4.5%;
+    margin: 2% auto;
+    background: #6c6262;
+    border-radius: 20px;
+  }
+  
+  .salad {
+    width: 85%;
+    height: 7%;
+    margin: 2% auto;
+    background:#bda3a3;
+    border-radius: 20px;
+  }

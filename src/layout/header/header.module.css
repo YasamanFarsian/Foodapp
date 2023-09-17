@@ -1,4 +1,6 @@
-.header{
-    height:50px;
-    background:red;
-}
+.header {
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }

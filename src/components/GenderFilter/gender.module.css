@@ -1,0 +1,20 @@
+.people-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .people-section {
+    width: 45%; /* Adjust the width as needed */
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 5px 0;
+  }

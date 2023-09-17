@@ -1,7 +1,10 @@
 import react, { useState } from 'react';
 import './App.css';
-import FullName, {Info} from './components/Fullname/FullName';
+//import FullName, {Info} from './components/Fullname/FullName';
 import Layout from './layout/layout';
+import Order from './pages/order/order';
+/* import PeopleList from './components/GenderFilter/gender'; */
+
 
 function App() {
 
@@ -10,9 +13,15 @@ function App() {
 {/*     <FullName />
  */}   
  
- <Layout>hello</Layout>
+ <Layout>
+<Order></Order>
+
+
+ </Layout>
  
  
+
+{/*  <PeopleList /> */}
  
   </div>
   );
